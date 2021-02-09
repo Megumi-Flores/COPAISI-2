@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@300;400;700&display=swap');
+:root{
+	--font1: 300;
+	--font2: 400;
+	--font3: 700;
+	--naranja1: #FEA47F;
+	--naranja2: #F97F51;
+	--purpura1: #B33771;
+	--purpura2: #B33771;
+	--celeste1: #25CCF7;
+	--celeste2: #1B9CFC;
+	--azul1: #3B3B98;
+	--azul2: #182C61;
+	--amarillo1: #F8EFBA;
+	--amarrillo2: #EAB543;
+	--rosa1: #FD7272;
+	--rosa2: #FC427B;
+	--verde1: #55E6C1;
+	--verde2: #58B19F;
+	--verde3: #9AECDB;
+	--verde4: #BDC581;
+	--gris: #CAD3C8;
+	--negro: #2C3A47;
+	--violeta1: #D6A2E8;
+	--violeta2: #82589F;
+}
+body{
+	font-family: 'BioRhyme', serif;
+}
+.cabeza{
+	background: linear-gradient(0deg, var(--naranja1) 0%,var(--naranja2) 100%);
+	min-height: 100vh;
+	width: 100%;
+}
+.menu_cabeza{
+	color: var(--azul2);
+	height: 70px;
+	border-bottom: 1px solid var(--amarillo1);
+}
+.contenedor_menu{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+    padding: 0;
+}
+.title_menu{
+	display: flex;
+	width: 40%;
+	align-items: left;
+	height: inherit;
+	padding: 0;
+}
+.contenedor{
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo_menu{
+	object-fit: cover;
+	height: 70px;
+	width: 85px;
+}
+.title_copaisi{
+	font-size: 30px;
+	font-weight: var(--font3);
+}
+.enlace{
+	text-decoration: none;
+	color: inherit;
+	font-weight: var(--font2);
+	display: inline-block;
+	padding: 10px;
+}
+.main_cabeza{
+	max-height: calc(100vh - 70px);
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+.titles_main{
+	height: inherit;
+	width: 48%;
+}
+.titles2_main{
+	width: 48%;
+}
+.title{
+	font-weight: var(--font2);
+	text-align: center;
+	font-size: 35px;
+	color: var(--negro);
+	padding: 10px;
+}
+.slogan{
+	font-weight: var(--font2);
+	font-size: 40px;
+	color: var(--azul1);
+}
+.copaisi_ant{
+	width: 48%;
+	padding: 0 auto;
+}
+.mockup_slogan{
+	object-fit: cover;
+	max-height: 60vh;
+	width: 100%;
+}
