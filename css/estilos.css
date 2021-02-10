@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700;800;900&display=swap');
 
-/* Header */
+:root{
+    --gold: #F4BD76;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -57,13 +60,24 @@ header .textos-header{
     padding:100px 0;
     height: auto;
 }
-
-
 .title-presentation{
     text-align: center;
     font-size: 56px;
     margin-bottom: 10px;
     font-weight: 800;
+}
+.point-presentation{
+    color: var(--gold);
+}
+.slogan-presentation{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.slogan-active{
+	color: var(--gold);
+	font-weight: 700;
 }
 .text-presentation{
     margin-bottom: 13px;
