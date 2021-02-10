@@ -15,7 +15,11 @@ header {
     background-attachment: fixed;
     position: relative;
 }
-
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 body{
 	font-family: 'Alegreya', serif;
 }
