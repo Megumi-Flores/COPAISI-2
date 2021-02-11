@@ -274,7 +274,6 @@ nav{
     font-weight: 700;
     margin-bottom: 30px;
 }
-
 .contenedor-servicio{
     display: flex;
     justify-content: space-evenly;
@@ -317,11 +316,10 @@ nav{
     color: #fff;
     font-weight: 700;
 }
-
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 85%; 
+    width: 90%; 
     border: 0;
     align-items: center;
     margin: 50px;
