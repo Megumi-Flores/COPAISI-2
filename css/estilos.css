@@ -216,9 +216,10 @@ nav{
 }
 .about2{
     display: flex;
-    width: 100%;
     align-items: center;
     text-align: center;
+    justify-content: space-between;
+    align-items: center;
 }
 .about__course{
     width: 48%;
