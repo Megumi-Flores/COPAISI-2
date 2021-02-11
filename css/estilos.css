@@ -210,17 +210,20 @@ nav{
 
 
 table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 85%; 
+    border: 0;
+    align-items: center;
+    margin: 50px;
 }
 
 td, th {
-  border: 1px solid var(--gris1);
-  text-align: left;
-  padding: 8px;
+    border: 1px solid var(--gris1);
+    text-align: left;
+    padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: var(--gris1);
+    background-color: var(--gris1);
 }
