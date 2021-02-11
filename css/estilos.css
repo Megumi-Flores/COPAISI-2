@@ -7,6 +7,10 @@
     --black2: #30353B;
     --shadow: 0 8px 8px;
     --color_shadow: #00000088;
+    --color-btn: #2193b0;
+    --padding-btn: 20px 35px;
+    --text-btn: #fff;
+=======
     --gris1: #dddddd;
 }
 
@@ -144,6 +148,7 @@ nav{
 }
 .college{
 	border: var(--black2) 5px solid;
+	min-width: 450px;
 	width: 48%;
     height: 600px;
     border-radius: 10px;
@@ -206,9 +211,60 @@ nav{
 	font-size: 24px;
     line-height:28px;
 }
+.about{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
 
+.about__course{
+    width: 48%;
+}
 
+.about__paragraph{
+    margin: 20px 0;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 20px;
+}
+.paragraph-active{
+    font-weight: 700;
+    color: var(--black2);
+}
 
+.about__picture{
+    text-align: center;
+    width: 48%;
+}
+
+.about__img{
+    width: 95%;
+}
+.title{
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+.title--border::after{
+    content: "";
+    display: block;
+    width: 250px;
+    margin-top: 20px;
+    height: 4px;
+    background-color: coral;
+}
+.cta{
+    display: inline-block;
+    background: var(--color-btn);
+    color: var(--text-btn);
+    padding: var(--padding-btn);
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
@@ -225,5 +281,10 @@ td, th {
 }
 
 tr:nth-child(even) {
+<<<<<<< HEAD
     background-color: var(--gris1);
+=======
+  background-color: var(--gris1);
+
+>>>>>>> 3958e1f8000b135b73fe969440d10ab048da1df9
 }
