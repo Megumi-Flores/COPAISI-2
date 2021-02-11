@@ -10,7 +10,6 @@
     --color-btn: #2193b0;
     --padding-btn: 20px 35px;
     --text-btn: #fff;
-=======
     --gris1: #dddddd;
 }
 
@@ -48,6 +47,7 @@ nav{
     max-width: 1200px;
     margin: 0 auto;
     text-shadow: 4px 2px 2px rgba(0,0,0,0.8);
+    font-weight: 500;
 }
 
 .logo_img{
@@ -335,6 +335,6 @@ td, th {
 
 tr:nth-child(even) {
 
-  background-color: var(--gris1);
+    background-color: var(--gris1);
 
 }
