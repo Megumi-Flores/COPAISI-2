@@ -334,10 +334,7 @@ td, th {
 }
 
 tr:nth-child(even) {
-<<<<<<< HEAD
-    background-color: var(--gris1);
-=======
+
   background-color: var(--gris1);
 
->>>>>>> 3958e1f8000b135b73fe969440d10ab048da1df9
 }
