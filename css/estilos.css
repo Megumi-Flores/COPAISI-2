@@ -7,6 +7,7 @@
     --black2: #30353B;
     --shadow: 0 8px 8px;
     --color_shadow: #00000088;
+    --gris1: #dddddd;
 }
 
 html{
@@ -57,8 +58,8 @@ nav{
     padding: 10px;
 }
 .link:hover{
-    border-top: 2px solid coral;
-    border-bottom: 2px solid coral;
+    border-top: 3px solid coral;
+    border-bottom: 3px solid coral;
 }
 .textos-header{
     color:#FFFFFF;
@@ -204,4 +205,22 @@ nav{
 .name-college{
 	font-size: 24px;
     line-height:28px;
+}
+
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid var(--gris1);
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: var(--gris1);
 }
