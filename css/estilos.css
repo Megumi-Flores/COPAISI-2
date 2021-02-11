@@ -59,7 +59,10 @@ nav{
     font-weight: 300;
     padding: 10px;
 }
-
+.link:hover{
+    border-top: 2px solid coral;
+    border-bottom: 2px solid coral;
+}
 
 
 .textos-header{
@@ -133,9 +136,10 @@ nav{
 }
 .text-presentation{
     margin-bottom: 16px;
-    font-weight: 500;
+    font-weight: 400;
     text-align: justify;
-    line-height: 24px;
+    line-height: 30px;
+    font-size: 20px;
 }
 .universities{
 	display: flex;
