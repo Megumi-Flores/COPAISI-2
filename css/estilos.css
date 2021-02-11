@@ -19,9 +19,6 @@ header {
     background: -webkit-linear-gradient(to right, hsla(240, 100%, 60%, 0.459), hsla(189, 100%, 60%, 0.664)), url(../img/portada.jpg);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, hsla(240, 100%, 60%, 0.459), hsla(189, 100%, 60%, 0.664)), url(../img/portada.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../img/portada.jpg);
-    /* Chrome 10-25, Safari 5.1-6 */
-
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -29,11 +26,10 @@ header {
 }
 nav{
     text-align: right;
-    padding: 0;
-    
+    padding: 0;    
 }
 .nav__container{
-    color: #FFFFFF;
+    color: #fff;
     display: flex;      /*en una sola linea */
     align-items: center;
     justify-content: space-between;
@@ -42,6 +38,7 @@ nav{
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
+    text-shadow: 4px 2px 2px rgba(0,0,0,0.8);
 }
 
 .logo_img{
