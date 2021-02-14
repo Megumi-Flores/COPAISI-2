@@ -306,7 +306,6 @@ nav{
     margin-bottom: 7px;
     color: var(--color-btn);
 }
-
 .number{
     display: inline-block;
     /* 02 */
@@ -320,6 +319,8 @@ nav{
     color: #fff;
     font-weight: 700;
 }
+
+
 table {
     border-collapse: collapse;
     width: 90%; 
@@ -383,4 +384,93 @@ tr:nth-child(even) {
     padding-bottom: auto;
     text-align: center;
     font-weight: bold;
+}
+.testimony{
+    background: #fafafa;
+}
+
+.testimony-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.testimony__card{
+    width: 30%;
+    height: 500px;
+    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.testimony__img{
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    object-fit: cover;
+    object-position: center top;
+}
+.subtitle{
+    font-size: 42px;
+}
+.copy__section{
+    color: var(--black2);
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 60px;
+}
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background:rgba(0, 118, 192, 0.781) ;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .5s ease;
+    border-radius: inherit;
+}
+
+.overlay h2{
+    color: #fff;
+    font-weight: 300;
+    font-size:30px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.testimony__card:hover .overlay{
+    height:100%;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1000px){
+    .testimony-container{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:700px){
+    .testimony-container{
+        width: 90%;
+    }
+    .testimony-container .testimony__card{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:450px){
+    h1{
+        font-size:22px;
+    }
+    .testimony-container{
+        width: 98%;
+    }
+    .testimony-container .testimony__card{
+        width: 80%;
+    }
 }
