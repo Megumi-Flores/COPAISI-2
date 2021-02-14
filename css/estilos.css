@@ -350,13 +350,6 @@ tr:nth-child(even) {
     font-weight: bold;
 
 }.tab1{
-    background-color: var(--celeste);
-    padding-top: 15px;
-    padding-bottom: auto;
-    text-align: center;
-    font-weight: 300;
-}
-.tab2{
     background-color: var(--gris2);
     padding-top: 15px;
     padding-bottom: auto;
@@ -379,7 +372,7 @@ tr:nth-child(even) {
     font-weight: bold;
 }
 .tab2h{
-    background-color: var(--gris2);
+    background-color: var(--celeste);
     padding-top: 15px;
     padding-bottom: auto;
     text-align: center;
