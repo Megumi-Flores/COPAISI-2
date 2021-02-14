@@ -467,3 +467,21 @@ tr:nth-child(even) {
         width: 80%;
     }
 }
+
+
+.activid{
+    background: green;
+    align-items: center;
+}
+.images1{
+    margin: 0 0 0 0;
+    padding-left: 7%;
+    width: 50%;
+    height: auto;
+}
+.images2{
+    margin: 0 0 0 0;
+    padding-left: 7%;
+    width: 50%;
+    height: auto;
+}
