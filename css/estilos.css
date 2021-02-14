@@ -396,6 +396,7 @@ tr:nth-child(even) {
     border-radius: 10px;
     position: relative;
     margin-bottom: 30px;
+    min-width: 340px;
 }
 
 .testimony__img{
@@ -428,42 +429,39 @@ tr:nth-child(even) {
 
 .overlay h2{
     color: #fff;
-    font-weight: 300;
+    font-weight: 700;
     font-size:30px;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left:50%;
     text-align: center;
     transform: translate(-50%, -50%);
 }
+.social-media{
+    width: 90%;
+    display: flex;
+    padding-top: 20px;
+}
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+.social-media-icon:hover{
+    background: #fff;
+    color:#764ba2;
+}
 .testimony__card:hover .overlay{
     height:100%;
     cursor: pointer;
-}
-
-@media screen and (max-width:1000px){
-    .testimony-container{
-        width: 95%;
-    }
-}
-
-@media screen and (max-width:700px){
-    .testimony-container{
-        width: 90%;
-    }
-    .testimony-container .testimony__card{
-        width: 48%;
-    }
-}
-
-@media screen and (max-width:450px){
-    h1{
-        font-size:22px;
-    }
-    .testimony-container{
-        width: 98%;
-    }
-    .testimony-container .testimony__card{
-        width: 80%;
-    }
 }
