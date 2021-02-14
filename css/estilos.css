@@ -350,7 +350,8 @@ tr:nth-child(even) {
     color: white;
     font-weight: bold;
 
-}.tab1{
+}
+.tab1{
     background-color: var(--gris2);
     padding-top: 15px;
     padding-bottom: auto;
@@ -495,7 +496,8 @@ tr:nth-child(even) {
     }
     .testimony-container .testimony__card{
         width: 80%;
-
+    }
+}
 .flex{
     width: 100%;
     height:100%;
@@ -526,8 +528,10 @@ tr:nth-child(even) {
     animation-duration: 1s;
 }
 @keyframes modal{
-    from{top:-330px; opacity:0;}
-    to{top:0; opacity:1;}
+    from{top:-330px; opacity:0;
+    }
+    to{top:0; opacity:1;
+    }
 }
 .close{
     color: #f2f2f2;
@@ -567,6 +571,7 @@ p{
 @media screen and (max-width:900px){
     .contenido-modal{
         width: 90%;
+>>>>>>> a7ee741715d524c6a151d8fa1ef3f620eed65d8b
     }
 }
 .activ{
@@ -634,6 +639,10 @@ p{
     line-height: 32px;
     margin-bottom: 60px;
 }
+<<<<<<< HEAD
 .point{
     color: var(--gold1);
 }
+=======
+
+>>>>>>> a7ee741715d524c6a151d8fa1ef3f620eed65d8b
