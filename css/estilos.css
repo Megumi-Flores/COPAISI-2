@@ -339,10 +339,6 @@ tr:nth-child(even) {
     background-color: var(--gris1);
 
 }
-.tabla{
-    width: 85%;
-    
-}
 .titabla{
     background-color: var(--azul);
     text-align: center;
