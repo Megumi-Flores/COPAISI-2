@@ -465,3 +465,23 @@ tr:nth-child(even) {
     height:100%;
     cursor: pointer;
 }
+.testimony-boton{
+    color: #fff;
+    font-weight: 400;
+    font-size:25px;
+    position: absolute;
+    top: 80%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    text-decoration: none;
+}
+.testimony-boton:hover{
+    font-weight: 700;
+    text-shadow: var(--shadow)  var(--color_shadow);
+    color: darkblue;
+    background: #ffffff80;
+}
