@@ -2,7 +2,7 @@
 
 :root{
     --gold: #F4BD76;
-    --gold2:#F6CD8F;
+    --gold2: #F6CD8F;
     --black1: #1A1B1F;
     --black2: #30353B;
     --shadow: 0 8px 8px;
@@ -11,6 +11,9 @@
     --padding-btn: 20px 35px;
     --text-btn: #fff;
     --gris1: #dddddd;
+    --gris2: #F2F3F4;
+    --celeste: #AED6F1;
+    --azul: #3498DB;
 }
 
 html{
@@ -318,7 +321,6 @@ nav{
     font-weight: 700;
 }
 table {
-    font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 90%; 
     border: 0;
@@ -336,4 +338,52 @@ tr:nth-child(even) {
 
     background-color: var(--gris1);
 
+}
+.tabla{
+    width: 85%;
+    
+}
+.titabla{
+    background-color: var(--azul);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 18px;
+    color: white;
+    font-weight: bold;
+
+}.tab1{
+    background-color: var(--celeste);
+    padding-top: 15px;
+    padding-bottom: auto;
+    text-align: center;
+    font-weight: 300;
+}
+.tab2{
+    background-color: var(--gris2);
+    padding-top: 15px;
+    padding-bottom: auto;
+    text-align: center;
+    font-weight: 300;
+}
+.titablah{
+    background-color: var(--azul);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: auto;
+    color: white;
+    font-weight: bold;
+}
+.tab1h{
+    background-color: var(--celeste);
+    padding-top: 15px;
+    padding-bottom: auto;
+    text-align: center;
+    font-weight: bold;
+}
+.tab2h{
+    background-color: var(--gris2);
+    padding-top: 15px;
+    padding-bottom: auto;
+    text-align: center;
+    font-weight: bold;
 }
