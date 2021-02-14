@@ -396,6 +396,7 @@ tr:nth-child(even) {
     border-radius: 10px;
     position: relative;
     margin-bottom: 30px;
+    min-width: 340px;
 }
 
 .testimony__img{
@@ -428,33 +429,63 @@ tr:nth-child(even) {
 
 .overlay h2{
     color: #fff;
-    font-weight: 300;
+    font-weight: 700;
     font-size:30px;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left:50%;
     text-align: center;
     transform: translate(-50%, -50%);
+}
+.social-media{
+    width: 90%;
+    display: flex;
+    padding-top: 20px;
+}
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+.social-media-icon:hover{
+    background: #fff;
+    color:#764ba2;
 }
 .testimony__card:hover .overlay{
     height:100%;
     cursor: pointer;
 }
-
-@media screen and (max-width:1000px){
-    .testimony-container{
-        width: 95%;
-    }
+.testimony-boton{
+    color: #fff;
+    font-weight: 400;
+    font-size:25px;
+    position: absolute;
+    top: 80%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    text-decoration: none;
 }
-
-@media screen and (max-width:700px){
-    .testimony-container{
-        width: 90%;
-    }
-    .testimony-container .testimony__card{
-        width: 48%;
-    }
+.testimony-boton:hover{
+    font-weight: 700;
+    text-shadow: var(--shadow)  var(--color_shadow);
+    color: darkblue;
+    background: #ffffff80;
 }
+<<<<<<< HEAD
 
 @media screen and (max-width:450px){
     h1{
@@ -485,3 +516,5 @@ tr:nth-child(even) {
     width: 50%;
     height: auto;
 }
+=======
+>>>>>>> f3ebbf6b36b1892c9e9cedd8456f656cd9a21d7b
