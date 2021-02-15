@@ -329,10 +329,11 @@ nav{
 
 
 table {
+    align: center;
     border-collapse: collapse;
     border: 0;
     align-items: center;
-    margin-top: 30px; 
+    margin-top: 30px;
 }
 td, th {
     border: 1px solid var(--gris1);
