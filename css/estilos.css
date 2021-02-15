@@ -257,6 +257,15 @@ nav{
     text-align: left;
 }
 
+.prog-slogan{
+    font-size: 35px;
+    font-weight: 300;
+    color: #000;
+}
+.prog-slogan-active{
+    color: var(--azul);
+    font-weight: 700;
+}
 .title--border::after{
     content: "";
     display: block;
@@ -264,6 +273,19 @@ nav{
     margin-top: 20px;
     height: 4px;
     background-color: coral;
+}
+.titl{
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+.titl--border::after{
+    content: "";
+    display: block;
+    width: 250px;
+    margin-top: 20px;
+    height: 4px;
+    background-color: var(--azul);
 }
 .cta{
     display: inline-block;
