@@ -693,8 +693,8 @@ p{
     font-weight: 700;
     margin-bottom: 30px;
 }
-.programa{
-    background: #AED6F188;
+.programa, .s{
+    background: #d2dfed;
 }
 .footer1{
     position: relative;
