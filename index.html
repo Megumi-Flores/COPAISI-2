@@ -21,7 +21,7 @@
                     <a href="#ponent" class="link">Ponentes</a>
                     <a href="#cronog" class="link">Cronograma</a>
                     <a href="#activ" class="link">Actividades</a>
-                    <a href="#" class="link">Inscripcion</a>
+                    <a href="#inscrib" class="link">Inscripcion</a>
                     <a href="#prog" class="link">Programa</a>
                 </div>
             </div>
@@ -93,7 +93,7 @@
 
 	                <p class="about__paragraph">Como parte de esta interacción entre pares, se propone el II Congreso Peruano Argentino de Ingeniería de Sistemas e Informática COPAISI. Este evento es organizado entre la Escuela Profesional de Ingeniería de Sistemas de la Universidad Nacional del Altiplano (Puno, Perú) y el Departamento de Informática de la UNSa. De esta manera, se pone de manifiesto la intención de intensificar las actividades que se vienen realizando (movilidad académica, dirección de tesis conjuntas, investigación) entre ambas instituciones.</p>
 
-	                <a href="#" class="cta">Quiero inscribirme al evento</a>
+	                <a href="#inscrib" class="cta">Quiero inscribirme al evento</a>
 	            </div>
 
 	            <figure class="about__picture">
@@ -736,8 +736,9 @@
                 </tr>
             </table> 
         </section>
-        <section class="container" id="activ">
-            <h2 class="subtitulo-act">Actividades<span class="point">.</span></h2>
+        <section class="actividad-section" id="activ">
+            <div class="container">
+                <h2 class="subtitulo-act">Actividades<span class="point">.</span></h2>
             <p class="slogan-actividades">"Se parte de un grupo selecto que demostrarán sus habilidades y proyectos"</p>
                 <div class="card">
                     <div class="cards__text">
@@ -748,8 +749,8 @@
                         <a href="#" class="card__button">Envía tu Trabajo</a>
                     </div>
                     <div class="img">
-                    	<img src="img/activ1.png" class="background__img">
-                	</div>
+                        <img src="img/activ1.png" class="background__img">
+                    </div>
                 </div>
                 <div class="card">
                     <div class="cards__text">
@@ -761,10 +762,12 @@
                         <a href="#" class="card__button">Inscribete al Concurso</a>
                     </div>
                     <div class="img">
-                    	<img src="img/activ2.png" class="background__img">
+                        <img src="img/activ2.png" class="background__img">
 
-                	</div>
+                    </div>
                 </div>
+            </div>
+            
         </section>
 
         <section class="programa" id="prog">
@@ -772,6 +775,7 @@
 	            <h2 class="subtitulo" >Programa General</h2>
 	            <!-- lunes -->
 	            <table>
+                    <tr class="titabla">LUNES</tr>
 	                <tr>
 	                    <th class="titabla">HORA</th>
 	                    <th class="titabla">Sala</th>
@@ -779,23 +783,41 @@
 	                    <th class="titabla">Responsable</th>
 	                </tr>
 	                <tr>
-	                    <th>3:30 pm - 4:00 pm</th>
-	                    <th>Sala UNSa 1</th>
-	                    <th>Inscripción plataforma / Inauguración</th>
-	                    <th>Comité de Inauguración y Clausura</th>
-	                </tr>
-	                <tr>
-	                    <th>4:00 pm - 5:00 pm</th>
-	                    <th>Sala UNA 1 (Zoom)</th>
-	                    <th>"Liderazgo adaptativo para la gestión de proyectos de TI"
-	                        Rudy Wilson Sanchez Guerra.</th>
-	                    <th>Comité Académico</th>
-	                </tr>
-	                <tr>
-	                    <th>5:00 pm - 6:00 pm</th>
-	                    <th>Sala UNA 1 (Zoom)</th>
-	                    <th>"FERIA VIRTUAL Juego en python: "O_3Defender"</th>
-	                </tr>
+                        <th>3:30 pm - 4:00 pm</th>
+                        <th>Sala UNSa 1</th>
+                        <th>Inscripción plataforma / Inauguración</th>
+                        <th>Comité de Inauguración y Clausura</th>
+                    </tr>
+                    <tr>
+                        <th class="tab2">4:00 pm - 5:00 pm</th>
+                        <th class="tab2">Sala UNSa 1</th>
+                        <th class="tab2">"Aprendizaje Profundo para la Clasificación de Videos"
+                            <br><strong> Ponente: </strong>Ismael Orozco.
+                            <br> Universidad Nacional de Salta - Argentina
+                            <br>
+                        </th>
+                        <th class="tab2">Comité UNSa</th>
+                    </tr>
+                    <tr>
+                        <th>5:00 pm - 5:30 pm</th>
+                        <th>Sala UNSa 1</th>
+                        <th>"La administración de proyectos por medio de Simulación"
+                            <br><strong> Ponente: </strong>Fernando Rivera
+                            <br> Universidad Nacional de Salta - Argentina
+                            <br>
+                            </th>
+                        <th>Comité UNSa</th>
+                    </tr>
+                    <tr>
+                        <th class="tab2">5:30 pm - 7:00 pm</th>
+                        <th class="tab2">Sala UNSa 1</th>
+                        <th class="tab2">Curso - Taller "Introducción al Lenguaje R"
+                            <br><strong> Ponente: </strong>Claudia Ibarra
+                            <br> Universidad Nacional de Salta - Argentina
+                            <br>
+                            </th>
+                        <th class="tab2">Comité UNSa</th>
+                    </tr>
 	            </table>
 	        </div>
         </section>
@@ -805,7 +827,7 @@
 
             <div class="footer__contact">
                 <div class="footer__texts">
-                    <h2 class="title">Inscríbete al Programa</h2>
+                    <h2 class="title" id="inscrib">Inscríbete al Programa</h2>
                     <h3 class="slogan-footer">Enseñar en la era de internet significa que debemos <span>enseñar las habilidades del mañana</span>   desde hoy.</h3>
 		            <div class="contenedor">
 			            <form action="" class="form">
