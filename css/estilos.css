@@ -127,6 +127,9 @@ nav{
 .point-presentation{
     color: var(--gold);
 }
+.point{
+    color: var(--gold);
+}
 .slogan-presentation{
     font-size: 24px;
     font-weight: 400;
@@ -324,12 +327,10 @@ nav{
 
 table {
     border-collapse: collapse;
-    width: 90%; 
     border: 0;
     align-items: center;
-    margin: 50px;
+    margin-top: 30px; 
 }
-
 td, th {
     border: 1px solid var(--gris1);
     text-align: left;
@@ -571,21 +572,16 @@ p{
 @media screen and (max-width:900px){
     .contenido-modal{
         width: 90%;
->>>>>>> a7ee741715d524c6a151d8fa1ef3f620eed65d8b
     }
 }
 .activ{
     display: flex;
 }
 .img{
-    display: flex;
-    width: 68%;
-    height: 290px;
+    height: 100%;
     border-radius: 10px;
-    position: relative;
-    margin-bottom: 60px;
-    width: 52%;
-    
+    width: 57%;
+    min-width: 462px;
 }
 .background__img{
     width: 100%;
@@ -595,20 +591,25 @@ p{
 }
 
 .card{
-    width: 30%;
-    padding: 30px 0;
-    overflow: hidden;
-    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
-    border-radius: 10px;
     position: relative;
-    text-align: right;
-    margin-bottom: 60px;
-    box-shadow: 0 0 6px var(--color_shadow);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    object-position: center;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
 }
 .cards__text{
-    text-align: left;
-    width: 90%;
-    margin:0 auto;
+    box-shadow: 0 0 6px var(--color_shadow);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+    width: 37%;
+    min-width: 320px;
+    border-radius: 10px;
 }
 .card__title{
     font-size: 40px;
@@ -639,10 +640,4 @@ p{
     line-height: 32px;
     margin-bottom: 60px;
 }
-<<<<<<< HEAD
-.point{
-    color: var(--gold1);
-}
-=======
 
->>>>>>> a7ee741715d524c6a151d8fa1ef3f620eed65d8b
