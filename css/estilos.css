@@ -357,7 +357,7 @@ tr:nth-child(even) {
     padding-top: 15px;
     padding-bottom: auto;
     text-align: center;
-    font-weight: 300;
+    font-weight: 500;
 }
 .titablah{
     background-color: var(--azul);
@@ -620,9 +620,14 @@ p{
 .card__copy{
     color: var(--gris3);
     margin-bottom: 16px;
-    text-align: justify;
+    text-align: left;
 }
-
+.card__date{
+    color: var(--gold2);
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
 .card__button{
     display: block;
     background: linear-gradient(180deg, #F7CE90 0%, #F4BD76 100%);
@@ -634,10 +639,16 @@ p{
     text-align: center;
     padding: 12px 0;
 }
-.copy__section{
+.slogan-actividades{
     color: var(--black2);
     font-size: 22px;
     line-height: 32px;
     margin-bottom: 60px;
 }
-
+.subtitulo-act{
+    color: var(--black2);
+    font-size: 40px;
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
