@@ -343,9 +343,10 @@ td, th {
 tr:nth-child(even) {
 
     background-color: var(--gris1);
-
 }
-
+.pa{
+    text-align: center;
+}
 .titabla{
     background-color: var(--azul);
     text-align: center;
